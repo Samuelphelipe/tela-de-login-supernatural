@@ -1,0 +1,66 @@
+body{
+    background-image:url(../img/supernatural.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family: sans-serif;
+}
+.form{
+    width: 400px;
+    margin: auto;
+    padding-top: 100px;
+}
+.card{
+    box-shadow: 1px 1px 5px rgb(204, 204, 204);
+    background-color:rgba(126, 126, 126, 0.699);
+    padding: 30px;
+    border-radius: 5px;
+}
+.card-top{
+    text-align: center;
+}
+.card-group{
+    margin-bottom: 10px;
+}
+.card-group > label{
+    width: 100%;
+    color: rgb(250, 250, 250);
+    display: block;
+}
+.card-group > input{
+    border-radius: 5px;
+    outline: 0;
+    width: 300px;
+    height: 30px;
+    padding: 5px;
+
+}
+.card-group > button{
+    background-image: linear-gradient(to right, red, blue);
+    width: 100%;
+    border-radius: 30px;
+    padding: 15px;
+    color: rgb(255, 255, 255);
+    border: 0px;
+    outline: 0;
+}
+.btn button:hover{
+    background-image: linear-gradient(to right,blue, red);
+}
+.imglogin{
+    border-radius: 50px;
+    width: 100px;
+    box-shadow: 1px 1px 5px #ccc;
+}
+.titulo{ 
+    color: blue;
+}
+.rodape{
+    text-align: center;
+    background-color: rgba(126, 126, 126, 0.699);
+    color: white;
+    padding: 5px;
+    border-radius: 5px;
+    position: absolute;
+    bottom: 10px;
+    width: 100%;
+}
